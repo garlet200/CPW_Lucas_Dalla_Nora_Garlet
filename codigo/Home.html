@@ -23,27 +23,60 @@
     <div class="profile">
         <a href=""><i class="fa-solid fa-user"></i></a>
     </div>
-</header>
 
-<div class="search-bar">    
-    <input type="text" placeholder="Search..." name="search">
-    <button type="submit"><i class="fa fa-search"></i></button>
-</div>
+    <div class="search-bar">    
+        <input type="text" placeholder="Pesquisar..." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </div>
+</header>
 
 <body>
     <div class="main">
-        <div class="banner-principal">
-            <img src="/img/banner.png" alt="">
+        <picture class="banner-principal">
+                <source media="(min-width: 900px)" srcset="/img/banner-big.png">
+                <img src="/img/banner.png" alt="Banner">
+        </picture>
+
+        <div class="title">
+            <p>Categorias</p>
+        </div>
+
+        <div class="categorias">
+            <div class="botao-categoria">
+                <img src="/img/category-icon.png" alt=""> <p>
+                Lançamentos
+            </div>
+            <div class="botao-categoria">
+                <img src="/img/category-icon.png" alt=""> <p>
+                Mais Vendidos
+            </div>
+            <div class="botao-categoria">
+                <img src="/img/category-icon.png" alt=""> <p>
+                Ofertas
+            </div>
+            <div class="botao-categoria">
+                <img src="/img/category-icon.png" alt=""> <p>
+                Pacotes de Produtos
+            </div>
+            <div class="botao-categoria">
+                <img src="/img/category-icon.png" alt=""> <p>
+                Serviços de Manutenção
+            </div>
+            <div class="botao-categoria">
+                <img src="/img/category-icon.png" alt=""> <p>
+                Monte seu PC
+            </div>
         </div>
     </div>
 </body>
 
+<div class="social">
+    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+</div>
+
 <footer>
-    <div class="social">
-        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-        <a href="#"><i class="fa-solid fa-envelope"></i></a>
-    </div>
 </footer>
 </html>

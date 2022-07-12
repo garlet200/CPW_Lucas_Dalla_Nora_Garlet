@@ -5,7 +5,7 @@
 
 header {
     background-color: white;
-    height: 90px;
+    height: 159px;
     width: 100%;
 }
 
@@ -53,6 +53,7 @@ header {
     height: 35px;
     border: none;
     font-size: 30px;
+    background-color: aqua;
 }
 
 .search-bar button {
@@ -67,13 +68,20 @@ header {
 }
 
 body {
-    background-color: gray;
+    background-color: darkgray;
 }
 
 .main {
+    margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
+}
+
+.title p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 .banner-principal img {
@@ -81,8 +89,32 @@ body {
     width: 100%;
 }
 
+.categorias {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.botao-categoria {
+    text-align: center;
+    background-color: white;
+    border: solid 2px gray;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.botao-categoria img {
+    width: 40%;
+    padding: 10px;
+}
+
+.botao-categoria p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: 700;
+}
+
 footer {
-    position: fixed;
     bottom: 0px;
     height: 160px;
     width: 100%;
@@ -90,7 +122,6 @@ footer {
 }
 
 .social {
-    margin-bottom: 10px;
     background-color: darkblue;
     text-align: center;
     padding: 20px;
@@ -100,4 +131,42 @@ footer {
     color: white;
     font-size: 30px;
     padding: 10px 30px;
+}
+
+@media only screen and (min-width: 500px) {
+    .search-bar input {
+        font-size: 20px;
+    }
+
+    .categorias {
+        justify-content: center;
+        display: inline-flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .botao-categoria {
+        font-size: 13px;
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .menu-bars {
+        display: none;
+    }
+
+    .categorias {
+        justify-content: center;
+        display: inline-flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .botao-categoria {
+        font-size: 13px;
+        width: 15%;
+    }
+
+    .social a{
+        font-size: 20px;
+    }
 }
