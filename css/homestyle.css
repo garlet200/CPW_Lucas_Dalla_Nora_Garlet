@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    height: 90px;
+    width: 100%;
+}
+
+.menu-bars {
+    float: left;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.menu-bars a {
+    font-size: 40px;
+    color: black;
+}
+
+.profile {
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.profile a {
+    font-size: 40px;
+    color: black;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    padding: 20px;
+    height: 50px;
+}
+
+.search-bar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    font-size: 30px;
+}
+
+.search-bar button {
+    top: 100px;
+    right: 30px;
+    position: absolute;
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+body {
+    background-color: gray;
+}
+
+.main {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.banner-principal img {
+    height: auto;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 160px;
+    width: 100%;
+    background-color: red;
+}
+
+.social {
+    margin-bottom: 10px;
+    background-color: darkblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.social a {
+    color: white;
+    font-size: 30px;
+    padding: 10px 30px;
+}
