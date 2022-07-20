@@ -10,43 +10,88 @@
 </head>
 
 <header>
-    <div class="menu">
-        <div class="drop-menu"></div>
-        <button class="menu-bars">
-            <a href="#"><i class="fa-solid fa-bars"></i></a>
-        </button>
-        <ul class="drop-menu">
-            <li>opção 1</li>
-            <li>opção 2</li>
-            <li>opção 3</li>
-                <ul class="sub-drop">
-                    <li>opção a</li>
-                    <li>opção b</li>
-                    <li>opção c</li>
+    <div class="dropdown">
+        <button class="menu-button"><a href="#"><i class="fa-solid fa-bars"></i></a></button>
+        <ul class="menu">
+            <li><a href="#">Placas de Vídeo</a></li>
+            <li><a href="#">Meméria RAM</a></li>
+            <li><a href="#">Processadores</a>
+                <ul class="sub-menu">
+                    <li><a href="#">AMD</a></li>
+                    <li><a href="#">Intel</a></li>
                 </ul>
-            <li>opção 4</li>
-            <li>opção 5</li>
+            </li>
+            <li><a href="#">Armazenamento</a>
+                <ul class="sub-menu">
+                    <li><a href="#">SSD</a></li>
+                    <li><a href="#">Hard Drive</a></li>
+                    <li><a href="#">Flashdrive</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Fontes</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Notebook</a></li>
+                    <li><a href="#">Desktop</a></li>
+                </ul>
+            </li>
         </ul>
     </div>
 
-    <div class="logo">
-        <a href="#"><img src="/img/logo-simple.png" alt=""></a>
-    </div>
+    <a href="Home.html" class="logo">
+        <picture>
+            <source media="(min-width: 1000px)" srcset="/img/logo-small.png">
+            <img src="/img/logo-simple.png" alt="logo">
+        </picture>
+    </a>
 
     <div class="profile">
-        <a href=""><i class="fa-solid fa-user"></i></a>
+        <a href="#"><i class="fa-solid fa-user"></i></a>
     </div>
 
-    <form action="" class="search-bar">   
+    <div class="fav">
+        <a href="#"><i class="fa-solid fa-heart"></i></a>
+    </div>
+
+    <div class="cart">
+        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
+
+    <form action="#" class="search-bar">   
         <input type="text" placeholder="    Pesquisar..." name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>   
+        <button type="submit"><i class="fa fa-search"></i></button>
     </form>
 </header>
+
+<nav>
+    <ul class="menu-2">
+        <li><a href="#">Placas de Vídeo</a></li>
+        <li><a href="#">Meméria RAM</a></li>
+        <li><a href="#">Processadores</a>
+            <ul class="sub-menu-2">
+                <li><a href="#">AMD</a></li>
+                <li><a href="#">Intel</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Armazenamento</a>
+            <ul class="sub-menu-2">
+                <li><a href="#">SSD</a></li>
+                <li><a href="#">Hard Drive</a></li>
+                <li><a href="#">Flashdrive</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Fontes</a>
+            <ul class="sub-menu-2">
+                <li><a href="#">Notebook</a></li>
+                <li><a href="#">Desktop</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
 
 <body>
     <div class="main">
         <picture class="banner-principal">
-                <source media="(min-width: 900px)" srcset="/img/banner-big.png">
+                <source media="(min-width: 1000px)" srcset="/img/banner-big.png">
                 <img src="/img/banner.png" alt="Banner">
         </picture>
 
@@ -91,18 +136,52 @@
                     Monte seu PC
                 </div>
             </a>
+            <a href="#" class="link-categoria">
+                <div class="botao-categoria">
+                    <img src="/img/category-icon.png" alt=""> <p>
+                    Lançamentos
+                </div>
+            </a>
+            <a href="#" class="link-categoria">
+                <div class="botao-categoria">
+                    <img src="/img/category-icon.png" alt=""> <p>
+                    Mais Vendidos
+                </div>
+            </a>
+            <a href="/codigo/Category_1.html" class="link-categoria">
+                <div class="botao-categoria">
+                    <img src="/img/category-icon.png" alt=""> <p>
+                    Ofertas
+                </div>
+            </a>
+            <a href="#" class="link-categoria">
+                <div class="botao-categoria">
+                    <img src="/img/category-icon.png" alt=""> <p>
+                    Pacotes de Produtos
+                </div>
+            </a>
+            <a href="#" class="link-categoria">
+                <div class="botao-categoria">
+                    <img src="/img/category-icon.png" alt=""> <p>
+                    Serviços de Manutenção
+                </div>
+            </a>
+            <a href="#" class="link-categoria">
+                <div class="botao-categoria">
+                    <img src="/img/category-icon.png" alt=""> <p>
+                    Monte seu PC
+                </div>
+            </a>
         </div>
     </div>
 </body>
 
-
-
 <footer>
     <div class="social">
     <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-    <a href=""><i class="fa-brands fa-twitter"></i></a>
-    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+    <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://twitter.com/home?lang=pt" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#" target="_blank"><i class="fa-solid fa-envelope"></i></a>
 </div>
 </footer>
 </html>
