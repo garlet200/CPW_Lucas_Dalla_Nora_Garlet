@@ -1,0 +1,94 @@
+/* corpo Home */
+
+body {
+    background-color: gray;
+}
+
+.main {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.title p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.banner-principal img {
+    height: auto;
+    width: 100%;
+}
+
+.categorias {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.link-categoria {
+    text-decoration: none;
+    color: black;
+}
+
+.botao-categoria {
+    text-align: center;
+    background-color: white;
+    margin: 5px;
+}
+
+.botao-categoria:hover {
+    background-color: #B1B1B1;
+}
+
+.botao-categoria img {
+    width: 40%;
+    padding: 10px;
+}
+
+.botao-categoria p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: 700;
+}
+
+/* tablet */
+@media only screen and (min-width: 500px) {
+    /* corpo */
+    .categorias {
+        justify-content: center;
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    .botao-categoria {
+        height: 95%;
+        font-size: 13px;
+    }
+
+    .link-categoria {
+        width: 30%;
+    }
+}
+
+/* desktop */
+@media only screen and (min-width: 1000px) {
+    /* corpo */
+    .categorias {
+        justify-content: center;
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+
+    .botao-categoria {
+        height: 95%;
+        font-size: 13px;
+    }
+
+    .link-categoria {
+        width: 30%;
+    }
+}
