@@ -4,6 +4,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* body {
+    padding-bottom: 200px;
+} */
+
 /* cabeçalho */
 header {
     display: grid;
@@ -141,7 +145,8 @@ nav {
 /* rodapé */
 
 footer {
-    bottom: 0px;
+    /* position: absolute;
+    bottom: 0; */
     height: 200px;
     width: 100%;
     background-color: black;
@@ -170,7 +175,7 @@ footer {
 }
 
 /* tablet */
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
     /* cabeçalho */
     .search-bar input {
         font-size: 20px;
