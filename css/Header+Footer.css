@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* cabeçalho */
@@ -174,8 +175,6 @@ footer {
     .search-bar input {
         font-size: 20px;
     }
-
-    /* rodapé */
 }
 
 /* desktop */
