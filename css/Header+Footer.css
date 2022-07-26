@@ -10,10 +10,11 @@ header {
     grid-template-rows: 100px 50px;
     grid-template-columns: 20% 20% 20% 20% 20%;
     background-color: black;
+    transition: background-color 500ms linear;
 }
 
 .menu-button {
-    background-color: black;
+    background-color: transparent;
     border: none;
 }
 
@@ -208,6 +209,7 @@ footer {
         grid-template-rows: 100px;
         grid-template-columns: 20% 5% 40% 7% 7% 7% 7% 7%;
         background-color: white;
+        transition: background-color 500ms linear;
     }
 
     .dropdown {
