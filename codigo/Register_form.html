@@ -14,13 +14,14 @@
     <div class="dropdown">
         <button class="menu-button"><a href="#"><i class="fa-solid fa-bars"></i></a></button>
         <ul class="menu">
+            <li><a href="/codigo/Favorites.html"><i class="fa-solid fa-heart"></i>  Favoritos</a></li>
             <li><a href="#">Placas de Vídeo</a></li>
             <li><a href="#">Memória RAM</a></li>
             <li><a href="#">Processadores</a>
                 <ul class="sub-menu">
                     <li><a href="#">AMD</a></li>
                     <li><a href="#">Intel</a>
-                        <ul class="sub-menu-2">
+                        <ul class="sub-menu">
                             <li><a href="#">Core i3</a></li>
                             <li><a href="#">Core i5</a></li>
                             <li><a href="#">Core i7</a></li>
@@ -34,7 +35,7 @@
                     <li><a href="#">SSD</a></li>
                     <li><a href="#">Hard Drive</a></li>
                     <li><a href="#">Flashdrive</a>
-                        <ul class="sub-menu-2">
+                        <ul class="sub-menu">
                             <li><a href="#">4GB</a></li>
                             <li><a href="#">8GB</a></li>
                             <li><a href="#">16GB</a></li>
@@ -61,18 +62,21 @@
                 <img src="/img/logo-simple.png" alt="logo">
             </picture>
         </a>
-    </div>
-        
+    </div>    
 
     <div class="profile">
         <a href="/codigo/Register_form.html"><i class="fa-solid fa-user"></i></a>
     </div>
     <div class="fav">
-        <a href="../codigo/Favorites.html"><i class="fa-solid fa-heart"></i></a>
+        <a href="/codigo/Favorites.html"><i class="fa-solid fa-heart"></i></a>
     </div>
     <div class="cart">
         <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
     </div>
+    <div class="help">
+        <a href="/codigo/info.html"><i class="fa-solid fa-circle-info"></i></a>
+    </div>
+
     <form action="#" class="search-bar">   
         <input type="text" placeholder="    Pesquisar..." name="search">
         <button type="submit"><i class="fa fa-search"></i></button>
@@ -131,33 +135,32 @@
                 <legend>Dados Pessoais</legend>
 
                 <label for="nome" class="nome">Nome Completo</label>
-                <input type="text" id="nome" required placeholder="Ex.: João Silva">
+                <input type="text" id="nome" placeholder="Ex.: João Silva" maxlength="30">
 
                 <label for="data" class="data">Data de Nascimento</label>
-                <input type="date" id="data" required placeholder="">
+                <input type="date" id="data" placeholder="">
 
                 <label for="cpf" class="cpf">CPF</label>
-                <input type="number" id="cpf" required placeholder="000.000.000-00" pattern="^[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}$">
+                <input type="number" id="cpf" placeholder="000.000.000-00" pattern="^[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}$">
 
                 <label for="email" class="email">E-mail</label>
-                <input type="email" id="email" required placeholder="seu@email.com">
+                <input type="email" id="email" placeholder="seu@email.com">
                 
                 <label for="estado" class="estado">Estado</label>
-                <select id="estado" required>
+                <select id="estado">
                     <option value="default" selected>--</option>
                     <option value="RS">RS</option>
                     <option value="SP">SP</option>
                     <option value="RJ">RJ</option>
                     <option value="SC">SC</option>
                     <option value="RO">RO</option>
-
                 </select>
 
                 <label for="senha" class="senha">Senha</label>
-                <input type="password" id="senha" required pattern=".{8,}" title="Digite 8 ou mais caracteres" placeholder="********">
+                <input type="password" id="senha" placeholder="********" minlength="8">
 
                 <label for="confirmar_senha" class="confirmar_senha">Confirmar Senha</label>
-                <input type="password" id="confirmar_senha" required pattern=".{8,}" title="Digite 8 ou mais caracteres" placeholder="********">
+                <input type="password" id="confirmar_senha" placeholder="********">
                 
                 <input type="submit" value="Confirmar" id="confirm">
 
