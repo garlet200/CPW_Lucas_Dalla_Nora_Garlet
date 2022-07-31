@@ -1,6 +1,12 @@
 body {
-    background-color: gray;
     text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0096D6;
 }
 
 .produto_card {
@@ -16,7 +22,7 @@ body {
     grid-row: 2;
     grid-column: 1;
     text-decoration: none;
-    background-color: green;
+    background-color: #008800;
     border-radius: 5px;
     text-align: center;
     color: white;
@@ -24,7 +30,7 @@ body {
 }
 
 .produto_botao:hover {
-    background-color: rgb(0, 180, 0);
+    background-color: #00aa00;
     text-decoration: underline;
 }
 
@@ -63,7 +69,6 @@ body {
 
 /* tablet */
 @media only screen and (min-width: 550px) {
-    /* corpo */
     .produtos {
         display: inline-flex;
         flex-wrap: wrap;
@@ -84,7 +89,6 @@ body {
 
 /* desktop */
 @media only screen and (min-width: 1000px) {
-    /* corpo */
     .produtos {
         display: inline-flex;
         flex-wrap: wrap;

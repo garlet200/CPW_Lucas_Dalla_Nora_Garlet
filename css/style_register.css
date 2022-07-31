@@ -1,11 +1,20 @@
-/* corpo Register */
-
 .form_title {
     text-align: center;
 }
 
+h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0096D6;
+}
+
 .container {
     margin-bottom: 20px;
+}
+
+.formulario {
+        background-color: white;    
 }
 
 .dados_pessoais {
@@ -40,7 +49,7 @@
     margin-bottom: 15px;
     font-size: 30px;
     border: none;
-    background-color: green;
+    background-color: #008800;
     color: white;
 }
 
@@ -49,13 +58,12 @@
     margin-bottom: 15px;
     font-size: 30px;
     border: none;
-    background-color: gray;
+    background-color: #898989;
     color: white;
 }
 
 /* tablet */
 @media only screen and (min-width: 600px) {
-    /* corpo */
     .container {
         width: 80%;
         margin-left: auto;
@@ -76,7 +84,7 @@
     }
 
     #confirm:hover {
-        background-color: rgb(13, 175, 13);
+        background-color: #00aa00;
     }
 
     #reset {
@@ -85,13 +93,12 @@
     }
 
     #reset:hover {
-        background-color: rgb(75, 75, 75);
+        background-color: #202020;
     }
 }
 
 /* desktop */
 @media only screen and (min-width: 1000px) {
-    /* corpo */
     .container {
         width: 70%;
         max-width: 900px;

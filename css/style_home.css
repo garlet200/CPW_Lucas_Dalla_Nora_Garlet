@@ -1,7 +1,3 @@
-body {
-    background-color: gray;
-}
-
 .main {
     margin-top: 10px;
     margin-left: 20px;
@@ -9,10 +5,11 @@ body {
     text-align: center;
 }
 
-.title h1 {
+h1 {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
+    color: #0096D6;
 }
 
 .banner-principal img {
@@ -38,16 +35,15 @@ body {
 }
 
 .botao-categoria:hover {
-    background-color: #B1B1B1;
+    background-color: #898989;
 }
 
 .botao-categoria img {
-    width: 40%;
+    width: 80%;
     padding: 10px;
 }
 
 .botao-categoria p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     padding: 10px;
     font-weight: 700;
@@ -55,7 +51,6 @@ body {
 
 /* tablet */
 @media only screen and (min-width: 550px) {
-    /* corpo */
     .categorias {
         justify-content: center;
         display: inline-flex;
@@ -74,7 +69,6 @@ body {
 
 /* desktop */
 @media only screen and (min-width: 1000px) {
-    /* corpo */
     .categorias {
         justify-content: center;
         display: inline-flex;
